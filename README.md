@@ -29,7 +29,7 @@ mkdir hello-manifests && cd hello-manifests
 git init
 ```
 
-1. Crie o arquivo deployment.yaml
+1. Crie o arquivo **deployment.yaml**
 ``` bash
 nano deployment.yaml
 ```
@@ -64,7 +64,7 @@ spec:
             cpu: "100m"
 ```
 
-2. Crie o service.yaml
+2. Crie o **service.yaml**
 ``` bash
 nano service.yaml
 ```
@@ -84,7 +84,7 @@ spec:
   type: ClusterIP
 ```
 
-3. Crie o application.yaml
+3. Crie o **application.yaml**
 ``` bash
 nano application.yaml
 ```
@@ -124,6 +124,6 @@ git push -u origin main
 --- 
 
 ## Retorne para o projeto e siga os passos a passos a seguir -> ArgoCD
-➡️ [Ir direto para “Instalar e Configurar ArgoCD”](https://github.com/gustavohossein/hello-manifests/blob/main/README.md#️-instalar-e-configurar-argocd)
+➡️ [Ir direto para “Instalar e Configurar ArgoCD”](https://github.com/gustavohossein/hello-app/blob/main/README.md#️-instalar-e-configurar-argocd)
 
 
